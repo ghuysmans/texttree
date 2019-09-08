@@ -1,2 +1,4 @@
 (library
- (public_name texttree))
+ (public_name texttree)
+ (inline_tests)
+ (preprocess (pps ppx_expect)))
