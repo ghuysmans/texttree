@@ -1,0 +1,3 @@
+(executable
+ (libraries tree)
+ (name tests))

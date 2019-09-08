@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "texttree"
+version: "0.0.1"
+maintainer: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+authors: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+homepage: "https://github.com/ghuysmans/texttree/"
+bug-reports: "https://github.com/ghuysmans/texttree/issues"
+dev-repo: "git://github.com/ghuysmans/texttree/"
+build: [["dune" "build" "-p" name "-j" jobs]]
+synopsis: "Tree text printer"
+depends: [
+  "dune" {build}
+]
